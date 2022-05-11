@@ -9,20 +9,81 @@
 <body>
   <!-- basic buttons -->
   <h2>Buttons</h2>
+  <button class="btn btn-primary">primary</button>
+  <button class="btn btn-secondary">secondary</button>
+  <button class="btn btn-danger">danger</button>
+  <button class="btn btn-success">success</button>
+  <button class="btn btn-info">info </button>
+  <button class="btn btn-warning">warning</button>
+  <button class="btn btn-link"button>link </button>
 
   <!-- anchor tags as buttons -->
+  <a href="#" class="btn btn-primary ">link Primary Button</a>
+  
+  <!-- input as a button -->
+  <input type="button" class="btn btn-primary" value="Input">
 
   <!-- button sizes -->
   <h2>Button sizes</h2>
+  <button class="btn btn-primary btn-lg">large button</button>
+  <button class="btn btn-secondary btn-sm">small button</button>
 
 
   <!-- outlined styles -->
   <h2>Button Styles</h2>
-
+<button class="btn btn-outline-primary">primary</button>
+<button class="btn btn-outline-secondary">secondary</button>
+<button class="btn btn-outline-success">success</button>
+<button class="btn btn-outline-danger " >danger</button>
 
   <!-- button groups -->
   <h2>Button Groups</h2>
-  
+  <div class="btn-group">
+    <button class="btn btn-primary">primary</button>
+    <button class="btn btn-secondary">secondary</button>
+    <buttton class="btn btn-success">success</buttton>
+  </div>
+<br>
+<br>
+  <div  class="btn-group">
+    <button class="btn btn-outline-danger">Left</button>
+    <button class="btn btn-outline-warning">Center</button>
+    <button class="btn btn-outline-success">Right</button>
+  </div>
+  <br>
+  <br>
+  <div class="btn-group" role="group">
+    <input type="checkbox" class="btn-check" id="btncheck1">
+    <label for="btncheck1" class="btn btn-outline-primary">checkbox1</label>
+    <input type="checkbox" class="btn-check" id="btncheck2">
+    <label for="btncheck2" class="btn btn-outline-secondary">checkbox2</label>
+    <input type="checkbox" class="btn-check" id="btncheck3">
+    <label for="btncheck3" class="btn btn-outline-success">checkbox3</label>
+  </div>
+  <br>
+  <br>
+  <div class="btn-group" role="group">
+    <input type="radio" class="btn-check" id="radio1">
+    <label for="radio1" class="btn btn-outline-danger">Left radio</label>
+    <input type="radio" class="btn-check" id="radio2">
+    <label for="radio2" class="btn btn-outline-warning">center radio</label>
+    <input type="radio" class="btn-check" id="radio3">
+    <label for="radio3" class="btn btn-outline-success">right radio</label>
+  </div>
+  <br>
+  <br>
+  <!-- button with nested drop down botton -->
+  <div class="btn-group" role="group">
+    <button class="btn btn-outline-danger">1</button>
+    <button class="btn btn-outline-warning">2</button>
+    <div class="btn-group" role="group">
+      <button class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown">dropdown</button>
+      <ul class="dropdown-menu">
+        <li><a href="#" class="dropdown-item">dropdown-link1</a></li>
+        <li><a href="#" class="dropdown-item">dropdown-link2</a></li>
+      </ul>
+    </div>
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
